@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# NPM
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+First run the # npm install or yarn add
 
-Try running some of the following tasks:
+# Hardhat
 
-```shell
-npx hardhat help
+After installing the dependicies run the following commands
+
+``commands``
+
+npx hardhat node 
+
+``then open up a seprate terminal``
+
+npx hardhat compile
+
 npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+npx hardhat run scripts/deploy.js --network localhost
+
+`````````````
+
+after that copy the contract address and paste it 
+in contract address in home.jsx 
+
