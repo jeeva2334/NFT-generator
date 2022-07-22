@@ -1,0 +1,27 @@
+img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 5px;
+    /* object-position: center top; */
+}
+img:hover{
+    padding: 7px;
+    border: 1px solid rgb(181, 181, 226);
+}
+
+button{
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(241, 125, 125);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(75, 74, 74, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.balanceBtn{
+    border-radius: 100px;
+}
